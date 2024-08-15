@@ -64,7 +64,7 @@ jobs:
       matrix:
         targetPlatform:
           - StandaloneWindows	# Windows
-          - WebGL #WebGL Build
+          - WebGL #WebGL Build Test
     steps:
       - uses: actions/checkout@v4
         with:
